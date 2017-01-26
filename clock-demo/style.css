@@ -1,0 +1,36 @@
+.container{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Lalezar';
+}
+
+#polar{
+  margin: 0 auto;
+  position: relative;
+  padding: 3%;
+  width: 500px;
+  height: 500px;
+
+}
+#polars{
+  position: absolute;
+  top: 14% ;
+  left: 35%;
+  width: 400px;
+  height: 400px;
+}
+
+#polarss{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 21.5%;
+  left: 38.7%;
+}
+#polarsss{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 29%;
+  left: 42%;
+}
