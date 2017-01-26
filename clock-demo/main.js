@@ -1,42 +1,5 @@
 var container= document.getElementById('container');
 
-function Car(){
-    return{
-      name:'',
-      make:'',
-      model:'',
-      year:1908,
-      color: '',
-      engineSize:'',
-      numberOfTires:4,
-      drive: function(){
-        console.log("is driving");
-      }
-
-    };
-
-}
-
-var luigi = new Car();
-
-luigi.name = 'Mofo';
-luigi.make = 'toyota';
-luigi.model = 'Corolla S';
-luigi.year = 2010;
-luigi.color = 'Silver';
-luigi.engineSize = 'L4';
-/*
-container.innerHTML += luigi.year +" ";
-container.innerHTML += luigi.color +" ";
-container.innerHTML += luigi.make +" ";
-container.innerHTML += luigi.model +" named: ";
-container.innerHTML += luigi.name +" ";
-*/
-
-
-//var year = today.getFullYear();
-//container.innerHTML = year;
-
 var hoursContainer = document.getElementById('hours');
 var minsContainer = document.getElementById('minutes');
 var secsContainer = document.getElementById('seconds');
